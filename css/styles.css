@@ -1,0 +1,83 @@
+main {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+    
+}
+
+button{
+    background: purple;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font: bold 1.2rem serif;
+    height: 40px;
+    outline: none;
+    width: 300px;
+  } 
+
+.casca {
+    align-items: center;
+    background: #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+.input {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.input input {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font: bold 1.5rem serif;
+    height: 50px;
+    outline: 0;
+    text-align: center;
+    width: 200px;
+}
+
+.input label {
+    font: italic 1.5rem seritaif;
+    color: black;
+}
+
+  .result{
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+    box-sizing: border-box;
+    color: purple;
+    display: flex;
+    font: italic 1.5rem serif;
+    height: 150px;
+    margin-top: 20px;
+    padding: 20px;
+    user-select: none;
+    width: 300px;
+  }
+
+  .titulo {
+    align-items: center;
+    border-bottom: solid 5px black;
+    display: flex;
+    font: bold 2.5rem serif;
+    height: 50px;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
